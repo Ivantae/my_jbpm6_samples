@@ -1,0 +1,4 @@
+This is a practicing workspace
+
+1) Update your jboss configuration files: users.properties and roles.properties. Refer to the attached files with same name
+2) Upload the business processes kjar(CreateInvoice-1.1.jar) into your jbpm-console

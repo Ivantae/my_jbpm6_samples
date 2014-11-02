@@ -1,0 +1,3 @@
+<jboss-web>
+    <context-root>invoiceRemote</context-root>
+</jboss-web>

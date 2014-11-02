@@ -1,0 +1,31 @@
+import org.drools.process.core.datatype.impl.type.StringDataType;
+import org.drrols.process.core.datatype.impl.type.BooleanDataType;
+import org.drools.process.core.datatype.impl.type.FloatDataType;
+
+[
+  [
+    "name" : "getSellerProfile",
+     "parameters" : [
+         "ccy" : new StringDataType(),
+      ],
+     "results" : [
+	    "isAutoApproval" : new BooleanDataType()
+	  ],
+	  
+     "icon" : "icons/world.png",
+    "displayName" : "getSellerProfile"
+  ],
+  
+  [
+    "name" : "getBuyerProfile",
+     "parameters" : [
+         "invoiceAmt" : new FloatDataType(),
+      ],
+      "results" : [
+	    "buyerAcceptFlag" : new BooleanDataType()
+	  ],
+     
+     "icon" : "icons/world.png",
+    "displayName" : "getBuyerProfile"
+  ]
+]
